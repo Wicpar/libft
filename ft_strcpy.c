@@ -6,11 +6,9 @@
 /*   By: fnieto <fnieto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/25 13:38:27 by fnieto            #+#    #+#             */
-/*   Updated: 2015/11/25 13:54:07 by fnieto           ###   ########.fr       */
+/*   Updated: 2015/12/06 16:28:57 by fnieto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 char	*ft_strcpy(char *dest, const char *src)
 {

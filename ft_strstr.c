@@ -6,11 +6,9 @@
 /*   By: fnieto <fnieto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/25 19:40:38 by fnieto            #+#    #+#             */
-/*   Updated: 2015/12/04 08:18:17 by fnieto           ###   ########.fr       */
+/*   Updated: 2015/12/06 16:32:24 by fnieto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 char	*ft_strstr(const char *haystack, const char *needle)
 {

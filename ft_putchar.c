@@ -6,11 +6,10 @@
 /*   By: fnieto <fnieto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/28 21:57:13 by fnieto            #+#    #+#             */
-/*   Updated: 2015/11/28 21:59:09 by fnieto           ###   ########.fr       */
+/*   Updated: 2015/12/06 16:27:52 by fnieto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 #include <unistd.h>
 
 void	ft_putchar(char c)
