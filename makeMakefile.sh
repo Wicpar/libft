@@ -6,7 +6,7 @@
 #    By: fnieto <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/04 01:19:47 by fnieto            #+#    #+#              #
-#    Updated: 2015/12/04 01:49:59 by fnieto           ###   ########.fr        #
+#    Updated: 2015/12/06 16:37:21 by fnieto           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,12 +32,6 @@ CFLAGS=-Wall -Wextra -Werror -O3
 
 RM=rm -f
 
-LDFLAGS=-L.
-
-LDLIBS=-lft
-
-HDDIRS=-I includes/
-
 SRC=" > $file
 
 ls ft_*.c | tr "\n" " "| rev | cut -c 2- | rev >> $file
@@ -45,8 +39,8 @@ ls ft_*.c | tr "\n" " "| rev | cut -c 2- | rev >> $file
 echo "
 OBJ=\$(SRC:.c=.o)
 
-\$(NAME): includes/libft.h
-		\$(CC) \$(CFLAGS) -c \$(SRC) \$(HDDIRS)
+\$(NAME): libft.h
+		\$(CC) \$(CFLAGS) -c \$(SRC)
 		ar rc \$(NAME) \$(OBJ)
 		ranlib \$(NAME)
 
